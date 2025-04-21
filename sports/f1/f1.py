@@ -76,7 +76,6 @@ def main():
         date, time = cleaning_the_data(race_data)
         return date, time
     else:
-        print("No races this week")
         return None
 
 if __name__ == "__main__":
